@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "SemanticKITTI_Tools"
+  site-url: "https://AIR-UFG.github.io/SemanticKITTI_Tools"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/AIR-UFG/SemanticKITTI_Tools"
