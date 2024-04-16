@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SemanticKITTI_Tools",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "SemanticKITTI_Tools"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "SemanticKITTI_Tools",
+    "section": "Install",
+    "text": "Install\npip install SemanticKITTI_Tools",
+    "crumbs": [
+      "SemanticKITTI_Tools"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "SemanticKITTI_Tools",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "SemanticKITTI_Tools"
+    ]
+  }
+]
