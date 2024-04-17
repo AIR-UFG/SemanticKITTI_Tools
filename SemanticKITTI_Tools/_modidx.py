@@ -5,4 +5,12 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://AIR-UFG.github.io',
                 'git_url': 'https://github.com/AIR-UFG/SemanticKITTI_Tools',
                 'lib_path': 'SemanticKITTI_Tools'},
-  'syms': {'SemanticKITTI_Tools.core': {'SemanticKITTI_Tools.core.foo': ('core.html#foo', 'SemanticKITTI_Tools/core.py')}}}
+  'syms': { 'SemanticKITTI_Tools.core': {'SemanticKITTI_Tools.core.foo': ('core.html#foo', 'SemanticKITTI_Tools/core.py')},
+            'SemanticKITTI_Tools.data': { 'SemanticKITTI_Tools.data.SemanticDataset': ( 'data.html#semanticdataset',
+                                                                                        'SemanticKITTI_Tools/data.py'),
+                                          'SemanticKITTI_Tools.data.SemanticDataset.__getitem__': ( 'data.html#semanticdataset.__getitem__',
+                                                                                                    'SemanticKITTI_Tools/data.py'),
+                                          'SemanticKITTI_Tools.data.SemanticDataset.__init__': ( 'data.html#semanticdataset.__init__',
+                                                                                                 'SemanticKITTI_Tools/data.py'),
+                                          'SemanticKITTI_Tools.data.SemanticDataset.__len__': ( 'data.html#semanticdataset.__len__',
+                                                                                                'SemanticKITTI_Tools/data.py')}}}
