@@ -13,4 +13,6 @@ d = { 'settings': { 'branch': 'main',
                                           'SemanticKITTI_Tools.data.SemanticDataset.__init__': ( 'data.html#semanticdataset.__init__',
                                                                                                  'SemanticKITTI_Tools/data.py'),
                                           'SemanticKITTI_Tools.data.SemanticDataset.__len__': ( 'data.html#semanticdataset.__len__',
-                                                                                                'SemanticKITTI_Tools/data.py')}}}
+                                                                                                'SemanticKITTI_Tools/data.py'),
+                                          'SemanticKITTI_Tools.data.remap_segmentation_masks': ( 'data.html#remap_segmentation_masks',
+                                                                                                 'SemanticKITTI_Tools/data.py')}}}
