@@ -11,10 +11,10 @@ from PIL import Image
 
 # %% ../nbs/00_data.ipynb 2
 class SemanticDataset(Dataset):
-    def __init__(self, image_path, mask_path, transforms=None):
+    def __init__(self, image_path, mask_path, transform=None):
         self.image_path = image_path
         self.mask_path = mask_path
-        self.transforms = transforms
+        self.transform = transform
         self.image_filenames = os.listdir(image_path)
         self.mask_filenames = os.listdir(mask_path)
 
@@ -28,8 +28,8 @@ class SemanticDataset(Dataset):
         image = np.array(Image.open(img_name))
         mask = np.array(Image.open(mask_name))
 
-        if self.transforms:
-            image = self.transforms(image)
+        if self.transform:
+            image = self.transform(image)
             mask = torch.from_numpy(mask.astype(np.int64))
 
         return image, mask
